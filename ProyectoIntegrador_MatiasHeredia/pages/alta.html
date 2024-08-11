@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alta</title>
+    <link rel="stylesheet" href="../css/alta.css">
+</head>
+<body>
+    <header>
+        <div class="inner">
+            <div class="logo">
+                <div>
+                
+                    <img src="../assets/33e63d5adb0da6b303a83901c8e8463a.jpg" alt="Nike logo">
+                </div>
+            </div>
+
+            <nav>
+                <li><span><a href="../index.html">Home</a></span></li>
+                <li><span><a href="../pages/nosotros.html">Nosotros</a></span></li>
+                <li><span><a href="../pages/Contacto.html" class="button">Contacto</a></span></li>   
+            </nav>
+        </div>
+    </header>    
+
+    <main>
+        <div class="form-container">
+            <h2>Registro de Producto</h2>
+            <form action="" method="post">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="precio">Precio</label>
+                    <input type="number" id="precio" name="precio" step="0.01" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="stock">Stock</label>
+                    <input type="number" id="stock" name="stock" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="marca">Marca</label>
+                    <input type="text" id="marca" name="marca" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="categoria">Categoría</label>
+                    <input type="text" id="categoria" name="categoria" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="descripcion_corta">Descripción Corta</label>
+                    <textarea id="descripcion_corta" name="descripcion_corta" rows="2" required></textarea>
+                </div>
+    
+                <div class="form-group">
+                    <label for="descripcion_larga">Descripción Larga</label>
+                    <textarea id="descripcion_larga" name="descripcion_larga" rows="4" required></textarea>
+                </div>
+    
+                <div class="form-group">
+                    <label for="envio">Envío sin cargo</label>
+                    <input type="checkbox" id="envio" name="envio">
+                </div>
+    
+                <div class="form-group">
+                    <label for="edad_desde">Edad Desde</label>
+                    <input type="number" id="edad_desde" name="edad_desde" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="edad_hasta">Edad Hasta</label>
+                    <input type="number" id="edad_hasta" name="edad_hasta" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="foto">Foto</label>
+                    <input type="file" id="foto" name="foto" accept="image/*" required>
+                </div>
+    
+                <div class="form-group">
+                    <button type="submit">Registrar Producto</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>Información</h3>
+                <ul>
+                    <li>Dirección: Avenida Corrientes 3247, CABA</li>
+                    <li>Teléfono: +54 9 11 2231-4141</li>
+                    <li>Email: Nike@gmail.com</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Enlaces Útiles</h3>
+                <ul>
+                    <li><a href="">Nosotros</a></li>
+                    <li><a href="">Alta</a></li>
+                    <li><a href="">Contacto</a></li>
+                    <li><a href="">Términos y Condiciones</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Síguenos</h3>
+                <div class="social-icons">
+                    <a href="">FB</a>
+                    <a href="">TW</a>
+                    <a href="">IG</a>
+                    <a href="">YT</a>
+                </div>
+            </div>
+        </div>
+        <p>&copy; 2024 Zapatillas Nike. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
